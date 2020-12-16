@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug over SSH",
+            "type": "gdb",
+            "request": "launch",
+            "target": "qmlvideo",
+            "cwd": "${workspaceRoot}",
+            "valuesFormatting": "parseText",
+            "gdbpath": "/tmp/gdbstatic",
+            "pathSubstitutions": {
+                "${workspaceFolder}": "/media/developer/apps/usr/palm/applications/org.webosbrew.sample.qmlvideo",
+                "/opt/webos-sdk-x86_64/1.0.g/sysroots/armv7a-neon-webos-linux-gnueabi/usr/src/debug/glibc/": "/usr/src/debug/lib32-glibc/"
+            },
+            "ssh": {
+                "host": "192.168.4.104",
+                "port": 9922,
+                "forwardX11": false,
+                "cwd": "/media/developer/apps/usr/palm/applications/org.webosbrew.sample.qmlvideo",
+                "keyfile": "/home/mariotaku/.ssh/hometv_webos_unlocked",
+                "user": "prisoner",
+                "bootstrap": "source /media/developer/apps/usr/palm/applications/org.webosbrew.sample.qmlvideo/assets/debug.env"
+            }
+        }
+    ]
+}

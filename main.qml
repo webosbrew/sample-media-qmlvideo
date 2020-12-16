@@ -33,7 +33,7 @@ WebOSWindow {
             source: mediaplayer
             
             // This is the key to display video. This sounds quite familiar to SurfaceView on Android.
-            // Also, the hierarchy is not important I guess. You can put this as a sibiling of VideoOutput
+            // Also, the hierarchy is not important I guess. You can put this as a sibling of VideoOutput
             PunchThrough {
                 x: 0; y: 0; z: -1
                 width: parent.width

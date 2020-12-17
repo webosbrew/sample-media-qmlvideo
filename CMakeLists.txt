@@ -10,7 +10,7 @@ include(WebOS-SDK)
 project(qmlvideo LANGUAGES C CXX)
 
 # these calls create special `PkgConfig::<MODULE>` variables
-find_package(Qt5 COMPONENTS Core Multimedia Quick REQUIRED)
+find_package(Qt5 REQUIRED COMPONENTS Core Multimedia Quick REQUIRED)
 
 set(EXECUTABLE_NAME "qmlvideo")
 

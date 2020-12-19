@@ -1,11 +1,6 @@
 cmake_minimum_required(VERSION 3.1)
 
-# Add folder where are supportive functions
-set(CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
-
-# Include webOS SDK related functions
-include(WebOS-SDK)
 
 project(qmlvideo LANGUAGES C CXX)
 

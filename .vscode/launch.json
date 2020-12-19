@@ -11,7 +11,6 @@
             "target": "qmlvideo",
             "cwd": "${workspaceRoot}",
             "valuesFormatting": "parseText",
-            "gdbpath": "/tmp/gdbstatic",
             "pathSubstitutions": {
                 "${workspaceFolder}": "/media/developer/apps/usr/palm/applications/org.webosbrew.sample.qmlvideo",
                 "/opt/webos-sdk-x86_64/1.0.g/sysroots/armv7a-neon-webos-linux-gnueabi/usr/src/debug/glibc/": "/usr/src/debug/lib32-glibc/"

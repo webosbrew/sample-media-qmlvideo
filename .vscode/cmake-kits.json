@@ -1,7 +1,0 @@
-[
-  {
-    "name": "webOS NDK 1.0.g",
-    "environmentSetupScript": "/opt/webos-sdk-x86_64/1.0.g/environment-setup-armv7a-neon-webos-linux-gnueabi",
-    "toolchainFile": "/opt/webos-sdk-x86_64/1.0.g/sysroots/x86_64-webossdk-linux/usr/share/cmake/OEToolchainConfig.cmake"
-  }
-]
